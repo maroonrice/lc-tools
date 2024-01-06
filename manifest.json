@@ -1,0 +1,13 @@
+{
+  "name": "Liella CLUB Tools",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Liella CLUB Tools",
+  "icons": {"48":"./character_kuri_128.png"},
+  "content_scripts": [{
+    "matches": ["https://lovelive-liellaclub.jp/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
